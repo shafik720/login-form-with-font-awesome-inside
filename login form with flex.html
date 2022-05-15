@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="https://kit.fontawesome.com/8e11e46df3.js" crossorigin="anonymous"></script>
+    <style>
+        .login-form{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+        }
+        .form input, button{
+            font-size: 20px;
+            padding: 10px;
+            margin-top: 10px;
+            border: 2px solid orangered;
+            border-radius: 5px;
+        }
+        .form button{
+            color: white;
+            background: linear-gradient(120deg, orangered, orange);
+            cursor: pointer;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.4em;
+            margin-right: 10px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        .icon a{
+            color: rgb(134, 16, 16);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="menu">
+            <a href="http://" target="_blank" >Home</a>
+            <a href="http://" target="_blank" >Menu</a>
+            <a href="http://" target="_blank" >About us</a>
+            <a href="http://" target="_blank" >Contact</a>
+        </div>
+        <div class="icon">
+            <a href="http://" target="_blank"><i class="fa-solid fa-user-astronaut"></i></a>
+            <a href="http://" target="_blank"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+        </div>
+    </nav>
+    <div class="login-form">
+        <form action="" class="form">
+            <input type="text" placeholder="Your Email Here">
+            <input type="password" name="password" id="" placeholder="Password Here">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Basic</title>
+    <style>
+        .boxer{
+            width: 800px;
+            height: 300px;
+            border: 3px solid orangered;
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            margin: 30px auto;
+        }
+        .box{
+            width: 150px;
+            /* height: 150px; */
+            border: 3px dotted rebeccapurple;
+            margin: 5px;
+            text-align: center;
+        }
+        #box1{
+            order: 2;
+        }
+        #box2{
+            flex-grow: 1;
+            order: 1;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="boxer">
+        <div id="box1" class="box"><h1>box - 1</h1></div>
+        <div id="box2" class="box"><h1>box - 2</h1></div>
+    </div>
+</body>
+</html>

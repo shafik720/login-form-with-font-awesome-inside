@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/8e11e46df3.js" crossorigin="anonymous"></script>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+        }
+        .login-form input, button{
+            margin-top: 15px;
+            padding: 20px 55px;
+            font-size: 1.3em;
+            border: 2px solid green;
+            border-radius: 5px;
+            color: brown;
+        }
+        .login-form button{
+            cursor: pointer;
+            color: white;
+            background: linear-gradient(orangered, orange);
+            font-weight: 700;
+        }
+        .inputEmail{
+            position: relative;
+        }
+        .inputEmail i{
+            position: absolute;
+            top: 40px;
+            left: 20px;
+            color: grey;
+            font-size: 1.3em;
+        }
+        .inputPass{
+            position: relative;
+        }
+        .inputPass i{
+            position: absolute;
+            top: 40px;
+            left: 20px;
+            color: grey;
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-form">
+            <div class="inputEmail">
+                <input type="email" name="" id="" placeholder="Your Email Here">
+                <i id="user" class="fa-solid fa-user"></i>
+            </div>
+            <div class="inputPass">
+                <input type="password" name="" id="" placeholder="Your Password Here">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <button type="submit">Login</button>
+        </div>
+            
+        
+    </div>
+</body>
+</html>
